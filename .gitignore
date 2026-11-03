@@ -19,7 +19,20 @@ env/
 Thumbs.db
 desktop.ini
 
-# 打包产物
+# 打包 / 发布产物：安装包请挂 GitHub Releases，不进仓库
 build/
 dist/
 *.spec
+!Banner.spec
+
+# 本地临时与历史备份（不放仓库）
+backup/
+_verify/
+*.bak
+
+# 内部笔记（含本机路径、进程号）
+临时文件清单.md
+banner_1920x1080.zip
+
+# 上游原版素材：默认 banner.png 里的形象有使用限制，沿用旧图请勿入库
+banner_old.png

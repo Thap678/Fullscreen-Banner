@@ -2,9 +2,15 @@
 * text=auto eol=lf
 
 *.pyw  text eol=lf
+*.py   text eol=lf
 *.md   text eol=lf
 *.txt  text eol=lf
+*.ps1  text eol=lf
+
+# NSIS 脚本：UTF-8 with BOM + CRLF，按原样保存（BOM 用于中文界面）
+*.nsi  text eol=crlf
 
 # 二进制素材
 *.png  binary
 *.ico  binary
+*.exe  binary
